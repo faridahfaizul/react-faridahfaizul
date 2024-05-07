@@ -1,9 +1,13 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './Footer';
+import Header from './Header';
 
 function App() {
   return (
-    <div>
-      <header className="App-header">
+    <div className='container'>
+      <Header />
+        <header>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,11 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <footer>
-        <div class="container">
-          <p class="footer__paragraph">&copy; 2024 by Faridah Faizul</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
