@@ -3,14 +3,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'react-bootstrap/Image';
 import * as Icon from 'react-bootstrap-icons';
 
-export default function HomeContent() {
-    return (
-      <div class="App">
-        <div class="small-device d-flex justify-content-center section-top">
+export default function Home() {
+    return (        
+      <div className="App">
+        
+        <div className="small-device d-flex justify-content-center section-top">
             <div className=""><Image src={"./images/me.jpg"} roundedCircle className="profile-image" alt="My Image" /></div>
             <div className="small-profile profile">
-                <h1 class="profile-title">hello, i'm Faridah</h1>
-                <p class="profile_desc">
+                <h1 className="profile-title">hello, i'm Faridah</h1>
+                <p className="profile_desc">
                     Check out my work as a Front-End focused web developer
                 </p>
                 <a
