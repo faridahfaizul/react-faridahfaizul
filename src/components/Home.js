@@ -12,17 +12,17 @@ export default function Home() {
         <Row>
             <Col sm={4}>
                 <div className='fixed'> 
-                    <Image src={'./images/me.jpg'} roundedCircle className='App-item profile-image' alt='My Image' />                         
+                    <Image src={'./images/me.jpg'} roundedCircle className='center-item profile-image' alt='My Image' />                         
                     <div className='small-hidden'>
                         <p className='space'></p>
-                        <div className='App'>                        
-                            <p>about</p>
-                            <p>timeline</p>
-                            <p>projects</p>
+                        <div className='directory'>                        
+                            <a href='#about'><Icon.ArrowRight color='black' size={25}/> about</a>
+                            <a href='#timeline'><Icon.ArrowRight color='black' size={25}/> timeline</a>
+                            <a href='#projects'><Icon.ArrowRight color='black' size={25}/> projects</a>
                         </div>
                     </div>
                     <p className='space'></p>
-                    <div className='App'>
+                    <div className='center-text'>
                         <a
                             href='mailto:fsyahirahfaizul@gmail.com'
                             className='profile-links'
@@ -44,7 +44,7 @@ export default function Home() {
             <Col sm={1}></Col>      
             <Col sm={7}>
                 <div>                        
-                    <h1 className='profile-title'>hello, i'm Faridah</h1>
+                    <h1 id="about" className='page-title'>hello, i'm Faridah</h1>
                     <div className='profile-desc'>
                         <p>
                             I specialize in crafting <strong>Front-End</strong> websites as a 
@@ -74,7 +74,7 @@ export default function Home() {
                     <p className='space' />
                     <p className='line' />
 
-                    <p className='section-title'>Timeline</p>
+                    <p id='timeline' className='section-title'>Timeline</p>
                     <div>
                         <p className='work-duration'>October 2023 - March 2024</p>
                         <p className='work-role'>
@@ -122,7 +122,7 @@ export default function Home() {
                     <p className='space add-space' />
                     <p className='line' />
 
-                    <p className='section-title'>Projects</p>
+                    <p id='projects' className='section-title'>Projects</p>
                 </div>
             </Col>
         </Row>

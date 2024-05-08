@@ -3,15 +3,14 @@ body {
   line-height: 1.8;
 }
 
-.App {
+.center-text {
   text-align: center;
 }
 
-.App-item {
+.center-item {
   display: block;
   margin: 0 auto;
 }
-
 
 /* Header */
 .top-space {
@@ -28,13 +27,9 @@ body {
 }
 
 /* Sidebar */
-.sidebar-position {
-  float: center;
-}
-
-.sidebar {
+/*.sidebar {
   flex: 0 0 300px;
-}
+}*/
 
 .fixed {
   position: fixed;
@@ -43,6 +38,14 @@ body {
 .profile-image {
   width: 250px;
   place-items: center;
+}
+
+.directory a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  color: #252525;
 }
 
 .profile-links {
@@ -83,7 +86,7 @@ body {
 }
 
 /* About */
-.profile-title {
+.page-title {
   font-size: 40px;
   font-weight: bold;
   font-family: Playfair Display;
@@ -131,14 +134,3 @@ body {
   font-size: 14px;
   margin: 0;
 }
-
- .content__content {
-   font-size: 15Fpx;
-   font-family: Arial;
-   color: #252525;
-   margin-top: 0;
-   text-align: justify;
-   word-spacing: 3px;
-   line-height: 1.5;
-   padding-bottom: 8px;
- }
