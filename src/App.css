@@ -7,6 +7,12 @@ body {
   text-align: center;
 }
 
+.App-item {
+  display: block;
+  margin: 0 auto;
+}
+
+
 /* Header */
 .top-space {
   padding-top: 80px;
@@ -22,15 +28,24 @@ body {
 }
 
 /* Sidebar */
+.sidebar-position {
+  float: center;
+}
+
+.sidebar {
+  flex: 0 0 300px;
+}
+
 .fixed {
   position: fixed;
 }
 
 .profile-image {
   width: 250px;
+  place-items: center;
 }
 
-.profile-link {
+.profile-links {
   padding-right: 20px;
 }
 

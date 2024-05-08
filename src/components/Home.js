@@ -10,27 +10,34 @@ export default function Home() {
     <div className='container'>
         <div className='small-device'>
         <Row>
-            <Col sm={4}>                    
-                <div>
-                    <div className='fixed small-hidden'>                    
-                        <Image src={'./images/me.jpg'} roundedCircle className='profile-image' alt='My Image' />
-                        <div className='App space'>               
-                            <a
-                                href='mailto:fsyahirahfaizul@gmail.com'
-                                target='_blank'
-                                className='profile-link'
-                            ><Icon.EnvelopeFill color='black' size={35}/></a>
-                            <a
-                                href='https://www.linkedin.com/in/faridahfaizul/'
-                                target='_blank'
-                                className='profile-link'
-                            ><Icon.Linkedin color='black' size={30}/></a>
-                            <a
-                                href='https://github.com/faridahfaizul'
-                                target='_blank'
-                                className='profile-link'
-                            ><Icon.Github color='black' size={30}/></a>                            
+            <Col sm={4}>
+                <div className='fixed'> 
+                    <Image src={'./images/me.jpg'} roundedCircle className='App-item profile-image' alt='My Image' />                         
+                    <div className='small-hidden'>
+                        <p className='space'></p>
+                        <div className='App'>                        
+                            <p>about</p>
+                            <p>timeline</p>
+                            <p>projects</p>
                         </div>
+                    </div>
+                    <p className='space'></p>
+                    <div className='App'>
+                        <a
+                            href='mailto:fsyahirahfaizul@gmail.com'
+                            className='profile-links'
+                            target='_blank'
+                        ><Icon.EnvelopeFill color='black' size={30}/></a>
+                        <a
+                            href='https://www.linkedin.com/in/faridahfaizul/'
+                            className='profile-links'
+                            target='_blank'
+                        ><Icon.Linkedin color='black' size={25}/></a>
+                        <a
+                            href='https://github.com/faridahfaizul'
+                            className='profile-links'
+                            target='_blank'
+                        ><Icon.Github color='black' size={25}/></a>                            
                     </div>
                 </div>
             </Col>          
@@ -115,6 +122,7 @@ export default function Home() {
                     <p className='space add-space' />
                     <p className='line' />
 
+                    <p className='section-title'>Projects</p>
                 </div>
             </Col>
         </Row>
