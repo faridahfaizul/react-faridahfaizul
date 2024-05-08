@@ -20,10 +20,22 @@ body {
 /* Footer */
 .footer {
   padding-top: 80px;
+  padding-bottom: 80px;
   font-size: 14px;
   color: #252525;
   font-family: Arial;
   font-style: italic;
+  text-align: end;
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #252525;
+}
+
+.footer a:hover {
+  color: #983961;
 }
 
 /* Sidebar */
@@ -41,11 +53,16 @@ body {
 }
 
 .directory a {
+  padding-top: 10px;
   display: block;
   margin: 0 auto;
   text-align: center;
   text-decoration: none;
   color: #252525;
+}
+
+.profile-social {
+  padding-top: 30px;
 }
 
 .profile-links {
@@ -67,8 +84,8 @@ body {
 
 @media screen and (min-width: 769px) {
   .big-device {
-      padding: 70px 0 0 20px;
-      text-align: start;
+    padding: 70px 0 0 20px;
+    text-align: start;
   }
 }
 

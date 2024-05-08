@@ -1,7 +1,6 @@
 import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'react-bootstrap/Image';
 import * as Icon from 'react-bootstrap-icons';
 
@@ -21,8 +20,7 @@ export default function Home() {
                             <a href='#projects'><Icon.ArrowRight color='black' size={25}/> projects</a>
                         </div>
                     </div>
-                    <p className='space'></p>
-                    <div className='center-text'>
+                    <div className='center-text profile-social'>
                         <a
                             href='mailto:fsyahirahfaizul@gmail.com'
                             className='profile-links'
