@@ -16,8 +16,8 @@ export default function Footer() {
                 by
                 <a href='https://faridahfaizul.netlify.app' target='_blank'> Faridah Faizul</a>
                 . Built with
-                <a href='https://faridahfaizul.netlify.app' target='_blank'> React.js </a>                    and
-                <a href='https://faridahfaizul.netlify.app' target='_blank'> Bootstrap</a>
+                <a href='https://react.dev/' target='_blank'> React.js </a>                    and
+                <a href='https://getbootstrap.com/' target='_blank'> Bootstrap</a>
                 , is on
                 <a href='https://github.com/faridahfaizul/react-faridahfaizul' target='_blank'> GitHub </a>
                 and hosted with
