@@ -12,9 +12,9 @@ export default function StickySideBar() {
                     <div className='small-directory-hidden'>
                         <p className='space'></p>
                         <div className='directory'>                        
-                            <a href='#about'><Icon.ArrowRight color='black' size={25}/> about</a>
-                            <a href='#timeline'><Icon.ArrowRight color='black' size={25}/> timeline</a>
-                            <a href='#projects'><Icon.ArrowRight color='black' size={25}/> projects</a>
+                            <a href='#about'><Icon.ArrowRight  size={25}/> about</a>
+                            <a href='#timeline'><Icon.ArrowRight size={25}/> timeline</a>
+                            <a href='#projects'><Icon.ArrowRight size={25}/> projects</a>
                         </div>
                     </div>
                     <div className='center-text profile-social'>
@@ -23,20 +23,20 @@ export default function StickySideBar() {
                             className='profile-links'
                             target='_blank'
                             rel='noreferrer'
-                        ><Icon.EnvelopeFill color='black' size={30}/></a>
+                        ><Icon.EnvelopeFill/></a>
                         <a
                             href='https://www.linkedin.com/in/faridahfaizul/'
                             className='profile-links'
                             target='_blank'
                             rel='noreferrer'
-                        ><Icon.Linkedin color='black' size={25}/></a>
+                        ><Icon.Linkedin/></a>
                         <a
                             href='https://github.com/faridahfaizul'
                             className='profile-links'
                             style={{paddingRight: 0}}
                             target='_blank'
                             rel='noreferrer'
-                        ><Icon.Github color='black' size={25}/></a>                            
+                        ><Icon.Github /></a>                            
                     </div>
                 </div>
             </Col>

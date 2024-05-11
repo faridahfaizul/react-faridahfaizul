@@ -58,12 +58,29 @@ body {
   color: #252525;
 }
 
+.directory a:hover {
+  color: #983961;
+  transform: translateY(-0.5%);
+  font-size: larger;
+  transition: 0.2s;
+}
+
 .profile-social {
   padding-top: 30px;
 }
 
 .profile-links {
   padding-right: 20px;
+  color: black;
+  font-size: x-large;
+  size: 25;
+}
+
+.profile-links :hover {
+  color: #983961;
+  transform: translateY(-0.5%);
+  font-size: larger;
+  transition: 0.2s;
 }
 
 /* Content */
