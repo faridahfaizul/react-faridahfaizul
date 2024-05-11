@@ -60,7 +60,6 @@ body {
 
 .directory a:hover {
   color: #983961;
-  transform: translateY(-0.5%);
   font-size: larger;
   transition: 0.2s;
 }
@@ -78,7 +77,6 @@ body {
 
 .profile-links :hover {
   color: #983961;
-  transform: translateY(-0.5%);
   font-size: larger;
   transition: 0.2s;
 }
@@ -188,6 +186,16 @@ body {
   margin: 0;
 }
 
+.work-role a{
+  color: grey;
+}
+
+.work-role a:hover {
+  color: black;
+  font-size: larger;
+  transition: 0.2s;
+}
+
 .work-location {
   text-decoration: none;
   font-style: italic;
@@ -270,6 +278,11 @@ a.profile-link {
   text-align: right;
 }
 
+.project-archive:hover {
+  font-size: 18px;
+  transition: 0.2s;
+}
+
 /* Archive */
 
 .archive-title {
@@ -292,6 +305,11 @@ a.profile-link {
   color: #983961;
   text-decoration: none;
   padding-top: 15px;
+}
+
+.archive-link:hover {
+  font-size: 15px;
+  transition: 0.2s;
 }
 
 .archive-tech {

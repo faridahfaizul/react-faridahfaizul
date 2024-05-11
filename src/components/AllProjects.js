@@ -5,9 +5,9 @@ import Table from 'react-bootstrap/Table';
 export default function AllProjects() {
     return (  
         <div className='container'>
-            <a href='/' className='project-archive'><Icon.ChevronLeft color='#983961' size={25} /> Faridah Faizul</a> 
-            <h1 className='archive-title'>All Projects</h1>
+            <a href='/' className='project-archive'><Icon.ChevronLeft color='#983961' size={25} /> Faridah Faizul</a>             
             <p className='space' />
+            <h1 className='archive-title'>All Projects</h1>
             
             <Table responsive className='archive-table'>
                 <thead>

@@ -9,8 +9,8 @@ export default function MainContentTimeline() {
                 <p className='work-role'>
                     SheCodes Foundation 
                     <span> {' '}
-                        <a target='_blank' rel='noreferrer' title='View Profile' href='http://shecodes.io/graduates/101982-faridah-faizul'>
-                            <Icon.PersonVcard color='grey' size={18}/>
+                        <a target='_blank' rel='noreferrer' className='work-icon' title='View Profile' href='http://shecodes.io/graduates/101982-faridah-faizul'>
+                            <Icon.PersonVcard size={18}/>
                         </a>
                     </span>
                 </p>
@@ -22,8 +22,8 @@ export default function MainContentTimeline() {
                 <p className='work-role'>
                     Google UX Design Certificate
                     <span> {' '}
-                        <a target='_blank' rel='noreferrer' title='View Certificate' href='https://www.coursera.org/account/accomplishments/professional-cert/2FTQP99CRYVA'>
-                            <Icon.CardText color='grey' size={18}/>
+                        <a target='_blank' rel='noreferrer' className='work-icon' title='View Certificate' href='https://www.coursera.org/account/accomplishments/professional-cert/2FTQP99CRYVA'>
+                            <Icon.CardText size={18}/>
                         </a>
                     </span>
                 </p>
