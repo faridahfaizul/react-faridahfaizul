@@ -9,7 +9,7 @@ export default function MainContentProject() {
     <>
        <div className='grid'> 
             <div className='grid-item'>
-                <a href='https://faridahfaizul.netlify.app/' target='_blank' rel='noreferrer' className='profile-link'>
+                <a href='https://v1-faridahfaizul.netlify.app/' target='_blank' rel='noreferrer' className='profile-link'>
                     <div className='card'>
                         <Row>
                             <Col sm={4}>
@@ -17,7 +17,7 @@ export default function MainContentProject() {
                             </Col>
                             <Col sm={7}>                    
                                 <h1 className='project-name small-project-word'>
-                                    faridahfaizul.netlify.app
+                                    v1-faridahfaizul.netlify.app
                                     <span> <Icon.BoxArrowInUpRight color='#983961' size={18}/></span>
                                 </h1>
                                 <p className='project-details small-project-word'>An old portfolio responsive website</p>
