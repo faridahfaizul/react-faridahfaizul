@@ -1,13 +1,13 @@
 import React from 'react';
 import Col from 'react-bootstrap/Col';
+import * as Icon from 'react-bootstrap-icons';
 import MainContentAbout from './MainContentAbout';
 import MainContentTimeline from './MainContentTimeline';
 import MainContentProject from './MainContentProject';
 
 export default function MainContent() {
     return (  
-        <>        
-            <Col sm={1}></Col>      
+        <>            
             <Col sm={7}>
                 <div>       
                     <h1 id='about' className='page-title'>hello, i'm Faridah</h1>                 
@@ -23,7 +23,7 @@ export default function MainContent() {
                     <p className='line' />
 
                     <p id='projects' className='section-title'>Projects</p>
-                    <MainContentProject />       
+                    <MainContentProject />      
                 </div>
             </Col>
         </>

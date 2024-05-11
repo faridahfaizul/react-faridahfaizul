@@ -5,12 +5,11 @@ import * as Icon from 'react-bootstrap-icons';
 
 export default function StickySideBar() {
     return (  
-        <>        
-            <Col sm={1}></Col>
+        <>  
             <Col sm={3}>
-                <div className='fixed'> 
+                <div className='small-sidebar fixed'> 
                     <Image src={'./images/me.jpg'} roundedCircle className='center-item profile-image' alt='My Image' />                         
-                    <div className='small-hidden'>
+                    <div className='small-directory-hidden'>
                         <p className='space'></p>
                         <div className='directory'>                        
                             <a href='#about'><Icon.ArrowRight color='black' size={25}/> about</a>
