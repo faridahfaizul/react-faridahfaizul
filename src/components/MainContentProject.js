@@ -66,7 +66,7 @@ export default function MainContentProject() {
                     </div>
                 </a>
             </div>
-            <div className='grid-item'>
+            <div className='hide-content grid-item'>
                 <a href='https://www.instagram.com/aiskrimbyeyla/' target='_blank' className='profile-link'>
                     <div className='card'>
                         <Row>
