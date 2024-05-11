@@ -32,8 +32,8 @@ export default function AllProjects() {
                             </ul>   
                         </td>
                         <td>
-                            <a href='https://v1.faridahfaizul.netlify.app/' target='_blank' className='archive-link'>
-                                v1.faridahfaizul.netlify.app/ <Icon.BoxArrowInUpRight color='#983961' size={18}/>
+                            <a href='https://v1-faridahfaizul.netlify.app/' target='_blank' className='archive-link'>
+                                v1-faridahfaizul.netlify.app/ <Icon.BoxArrowInUpRight color='#983961' size={18}/>
                             </a>
                         </td>
                     </tr>
