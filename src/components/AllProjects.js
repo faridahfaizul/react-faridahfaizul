@@ -21,6 +21,74 @@ export default function AllProjects() {
                 <tbody>
                     <tr>
                         <td>2023</td>
+                        <td className='archive-name'>SheCodes React workshop project</td>
+                        <td>
+                            <ul className='archive-tech small-project-word'>
+                                <li className='archive-tech-list'>HTML</li>
+                                <li className='archive-tech-list'>CSS</li>
+                                <li className='archive-tech-list'>Netlify</li>
+                                <li className='archive-tech-list'>Github</li>
+                            </ul>   
+                        </td>
+                        <td>
+                            <a href='https://www.shecodes.io/cohorts/1726/projects/2131483?_gl=1*jq50wk*_gcl_au*ODY2NDI1NDkwLjE3MTAyMzM0NTc.' target='_blank' rel='noreferrer' className='archive-link'>
+                                shecodes.io/react-weatherapp <Icon.BoxArrowInUpRight color='#983961' size={18}/>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td className='archive-name'>SheCodes Responsive workshop project</td>
+                        <td>
+                            <ul className='archive-tech small-project-word'>
+                                <li className='archive-tech-list'>HTML</li>
+                                <li className='archive-tech-list'>CSS</li>
+                                <li className='archive-tech-list'>Bootstrap</li>
+                                <li className='archive-tech-list'>SEO</li>
+                                <li className='archive-tech-list'>Netlify</li>
+                            </ul>   
+                        </td>
+                        <td>
+                            <a href='https://www.shecodes.io/cohorts/1525/projects/1995878?_gl=1*jq50wk*_gcl_au*ODY2NDI1NDkwLjE3MTAyMzM0NTc.' target='_blank' rel='noreferrer' className='archive-link'>
+                                shecodes.io/faridahfaizul <Icon.BoxArrowInUpRight color='#983961' size={18}/>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td className='archive-name'>SheCodes Plus workshop project</td>
+                        <td>
+                            <ul className='archive-tech small-project-word'>
+                                <li className='archive-tech-list'>HTML</li>
+                                <li className='archive-tech-list'>CSS</li>
+                                <li className='archive-tech-list'>Git</li>
+                                <li className='archive-tech-list'>Github</li>
+                                <li className='archive-tech-list'>Netlify</li>
+                            </ul>   
+                        </td>
+                        <td>
+                            <a href='https://www.shecodes.io/cohorts/1496/projects/1940232?_gl=1*jq50wk*_gcl_au*ODY2NDI1NDkwLjE3MTAyMzM0NTc.' target='_blank' rel='noreferrer' className='archive-link'>
+                                shecodes.io/weatherapp <Icon.BoxArrowInUpRight color='#983961' size={18}/>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td className='archive-name'>SheCodes Basics workshop project</td>
+                        <td>
+                            <ul className='archive-tech small-project-word'>
+                                <li className='archive-tech-list'>HTML</li>
+                                <li className='archive-tech-list'>CSS</li>
+                            </ul>   
+                        </td>
+                        <td>
+                            <a href='https://www.shecodes.io/cohorts/1485/projects/1907126?_gl=1*mjm9ko*_gcl_au*ODY2NDI1NDkwLjE3MTAyMzM0NTc.' target='_blank' rel='noreferrer' className='archive-link'>
+                                shecodes.io/marching-band <Icon.BoxArrowInUpRight color='#983961' size={18}/>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
                         <td className='archive-name'>Personal Website V1</td>
                         <td>
                             <ul className='archive-tech small-project-word'>

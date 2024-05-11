@@ -17,7 +17,7 @@ export default function MainContentProject() {
                             </Col>
                             <Col sm={7}>                    
                                 <h1 className='project-name small-project-word'>
-                                    v1-faridahfaizul.netlify.app
+                                    faridahfaizul.netlify.app(v1)
                                     <span> <Icon.BoxArrowInUpRight color='#983961' size={18}/></span>
                                 </h1>
                                 <p className='project-details small-project-word'>An old portfolio responsive website</p>
@@ -42,7 +42,7 @@ export default function MainContentProject() {
                             </Col>
                             <Col sm={7}>                    
                                 <h1 className='project-name small-project-word'>
-                                    DentalClinic project
+                                    Project done at UST Global
                                     <span> <Icon.BoxArrowInUpRight color='#983961' size={18}/></span>
                                 </h1>
                                 <p className='project-details small-project-word'>
