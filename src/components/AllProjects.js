@@ -1,11 +1,10 @@
 import React from 'react';
 import * as Icon from 'react-bootstrap-icons';
-import { Container } from 'react-bootstrap';
 import Table from 'react-bootstrap/Table';
 
 export default function AllProjects() {
     return (  
-        <Container>
+        <div className='container'>
             <a href='/' className='project-archive'><Icon.ChevronLeft color='#983961' size={25} /> Faridah Faizul</a> 
             <h1 className='archive-title'>All Projects</h1>
             <p className='space' />
@@ -134,6 +133,6 @@ export default function AllProjects() {
                     </tr>
                 </tbody>
             </Table>
-        </Container>
+        </div>
     );
 }

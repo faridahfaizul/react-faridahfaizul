@@ -3,19 +3,18 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import StickySideBar from './StickySideBar';
 import MainContent from './MainContent';
-import { Container } from 'react-bootstrap';
 
 export default function Home() {
     return (        
-        <Container>
+        <div className='container'>
             <div className='small-device'>
-                <Row>                          
+               <Row>                          
                     <Col sm={1} className='small-column-hidden'></Col>
                     <StickySideBar />
                     <Col sm={1} className='small-column-hidden'></Col>           
                     <MainContent />
                 </Row>
             </div>
-        </Container>
+        </div>
     );
 }

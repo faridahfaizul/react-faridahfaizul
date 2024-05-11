@@ -1,6 +1,5 @@
 import React from 'react';
 import Col from 'react-bootstrap/Col';
-import * as Icon from 'react-bootstrap-icons';
 import MainContentAbout from './MainContentAbout';
 import MainContentTimeline from './MainContentTimeline';
 import MainContentProject from './MainContentProject';
