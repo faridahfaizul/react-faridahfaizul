@@ -31,6 +31,7 @@ export default function StickySideBar() {
                         <a
                             href='https://github.com/faridahfaizul'
                             className='profile-links'
+                            style={{paddingRight: 0}}
                             target='_blank'
                         ><Icon.Github color='black' size={25}/></a>                            
                     </div>

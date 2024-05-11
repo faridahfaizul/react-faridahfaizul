@@ -28,6 +28,7 @@ export default function MainContentProject() {
                                     <li className='project-tech-list'>Github</li>
                                 </ul>      
                             </Col>
+                            <Col sm={1} className='small-column-hidden'></Col>
                         </Row>   
                     </div>
                 </a>
@@ -60,6 +61,7 @@ export default function MainContentProject() {
                                     <li className='project-tech-list'>Github</li>
                                 </ul>      
                             </Col>
+                            <Col sm={1} className='small-column-hidden'></Col>
                         </Row>   
                     </div>
                 </a>
@@ -85,6 +87,7 @@ export default function MainContentProject() {
                                     <li className='project-tech-list'>Canva</li>
                                 </ul>      
                             </Col>
+                            <Col sm={1} className='small-column-hidden'></Col>
                         </Row>   
                     </div>
                 </a>
@@ -113,6 +116,7 @@ export default function MainContentProject() {
                                     <li className='project-tech-list'>Unity</li>
                                 </ul>      
                             </Col>
+                            <Col sm={1} className='small-column-hidden'></Col>
                         </Row>   
                     </div>
                 </a>
