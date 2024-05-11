@@ -32,7 +32,7 @@ export default function AllProjects() {
                             </ul>   
                         </td>
                         <td>
-                            <a href='https://v1-faridahfaizul.netlify.app/' target='_blank' className='archive-link'>
+                            <a href='https://v1-faridahfaizul.netlify.app/' target='_blank' rel='noreferrer' className='archive-link'>
                                 v1-faridahfaizul.netlify.app/ <Icon.BoxArrowInUpRight color='#983961' size={18}/>
                             </a>
                         </td>
@@ -52,7 +52,7 @@ export default function AllProjects() {
                             </ul> 
                         </td>
                         <td>
-                            <a href='https://faridahfaizul.000webhostapp.com/' target='_blank' className='archive-link'>
+                            <a href='https://faridahfaizul.000webhostapp.com/' target='_blank' rel='noreferrer' className='archive-link'>
                                 faridahfaizul.000webhostapp.com <Icon.BoxArrowInUpRight color='#983961' size={18}/>
                             </a>
                         </td>
@@ -67,7 +67,7 @@ export default function AllProjects() {
                             </ul> 
                         </td>
                         <td>
-                            <a href='https://www.figma.com/proto/nq8B0HmyuYmQbdhrUDRcwq/Clicom-MobileApp-%26-RW?type=design&node-id=15-1661&t=rwcipfARfbgTzyHk-1&scaling=scale-down&page-id=15%3A1401&starting-point-node-id=15%3A1615' target='_blank' className='archive-link'>
+                            <a href='https://www.figma.com/proto/nq8B0HmyuYmQbdhrUDRcwq/Clicom-MobileApp-%26-RW?type=design&node-id=15-1661&t=rwcipfARfbgTzyHk-1&scaling=scale-down&page-id=15%3A1401&starting-point-node-id=15%3A1615' target='_blank' rel='noreferrer' className='archive-link'>
                                 figma.com/clicom <Icon.BoxArrowInUpRight color='#983961' size={18}/>
                             </a>
                         </td>
@@ -82,7 +82,7 @@ export default function AllProjects() {
                             </ul> 
                         </td>
                         <td>
-                            <a href="https://www.figma.com/proto/iP08zTOzjs7JOoS9WHMGo8/Anne's-Bakery-Responsive-Website?type=design&node-id=50-2&t=GrJmfwVBAD3XWfCD-1&scaling=scale-down&page-id=4%3A2321&starting-point-node-id=50%3A2" target='_blank' className='archive-link'>
+                            <a href="https://www.figma.com/proto/iP08zTOzjs7JOoS9WHMGo8/Anne's-Bakery-Responsive-Website?type=design&node-id=50-2&t=GrJmfwVBAD3XWfCD-1&scaling=scale-down&page-id=4%3A2321&starting-point-node-id=50%3A2" target='_blank' rel='noreferrer' className='archive-link'>
                                 figma.com/annesbakery <Icon.BoxArrowInUpRight color='#983961' size={18}/>
                             </a>
                         </td>
@@ -97,7 +97,7 @@ export default function AllProjects() {
                             </ul> 
                         </td>
                         <td>
-                            <a href="https://www.figma.com/proto/L3GaimVdEhZBMkWrvT52aZ/Artliys-Mobile-App?type=design&node-id=285-594&scaling=scale-down&page-id=285%3A76" target='_blank' className='archive-link'>
+                            <a href="https://www.figma.com/proto/L3GaimVdEhZBMkWrvT52aZ/Artliys-Mobile-App?type=design&node-id=285-594&scaling=scale-down&page-id=285%3A76" target='_blank' rel='noreferrer' className='archive-link'>
                                 figma.com/artliys <Icon.BoxArrowInUpRight color='#983961' size={18}/>
                             </a>
                         </td>
@@ -112,7 +112,7 @@ export default function AllProjects() {
                             </ul> 
                         </td>
                         <td>
-                            <a href="https://www.instagram.com/aiskrimbyeyla/" target='_blank' className='archive-link'>
+                            <a href="https://www.instagram.com/aiskrimbyeyla/" target='_blank' rel='noreferrer' className='archive-link'>
                                 instagram.com/aiskrimbyeyla <Icon.BoxArrowInUpRight color='#983961' size={18}/>
                             </a>
                         </td>
@@ -127,7 +127,7 @@ export default function AllProjects() {
                             </ul> 
                         </td>
                         <td>
-                            <a href="https://drive.google.com/file/d/1ZBswRq40xSUvfX8K8crMOBVnVDm9Dott/view" target='_blank' className='archive-link'>
+                            <a href="https://drive.google.com/file/d/1ZBswRq40xSUvfX8K8crMOBVnVDm9Dott/view" target='_blank' rel='noreferrer' className='archive-link'>
                                 apk-file @ google drive <Icon.BoxArrowInUpRight color='#983961' size={18}/>
                             </a>
                         </td>

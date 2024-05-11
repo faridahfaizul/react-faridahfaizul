@@ -9,7 +9,7 @@ export default function MainContentProject() {
     <>
        <div className='grid'> 
             <div className='grid-item'>
-                <a href='https://faridahfaizul.netlify.app/' target='_blank' className='profile-link'>
+                <a href='https://faridahfaizul.netlify.app/' target='_blank' rel='noreferrer' className='profile-link'>
                     <div className='card'>
                         <Row>
                             <Col sm={4}>
@@ -34,7 +34,7 @@ export default function MainContentProject() {
                 </a>
             </div>
             <div className='grid-item'>
-                <a href='https://faridahfaizul.000webhostapp.com/' target='_blank' className='profile-link'>
+                <a href='https://faridahfaizul.000webhostapp.com/' target='_blank' rel='noreferrer' className='profile-link'>
                     <div className='card'>
                         <Row>
                             <Col sm={4}>
@@ -67,7 +67,7 @@ export default function MainContentProject() {
                 </a>
             </div>
             <div className='hide-content grid-item'>
-                <a href='https://www.instagram.com/aiskrimbyeyla/' target='_blank' className='profile-link'>
+                <a href='https://www.instagram.com/aiskrimbyeyla/' target='_blank' rel='noreferrer' className='profile-link'>
                     <div className='card'>
                         <Row>
                             <Col sm={4}>                                            
@@ -93,7 +93,7 @@ export default function MainContentProject() {
                 </a>
             </div>
             <div className='grid-item'>
-                <a href='https://drive.google.com/file/d/1ZBswRq40xSUvfX8K8crMOBVnVDm9Dott/view' target='_blank' className='profile-link'>
+                <a href='https://drive.google.com/file/d/1ZBswRq40xSUvfX8K8crMOBVnVDm9Dott/view' target='_blank' rel='noreferrer' className='profile-link'>
                     <div className='card'>
                         <Row>
                             <Col sm={4}>                                            

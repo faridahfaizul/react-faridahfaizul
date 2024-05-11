@@ -22,17 +22,20 @@ export default function StickySideBar() {
                             href='mailto:fsyahirahfaizul@gmail.com'
                             className='profile-links'
                             target='_blank'
+                            rel='noreferrer'
                         ><Icon.EnvelopeFill color='black' size={30}/></a>
                         <a
                             href='https://www.linkedin.com/in/faridahfaizul/'
                             className='profile-links'
                             target='_blank'
+                            rel='noreferrer'
                         ><Icon.Linkedin color='black' size={25}/></a>
                         <a
                             href='https://github.com/faridahfaizul'
                             className='profile-links'
                             style={{paddingRight: 0}}
                             target='_blank'
+                            rel='noreferrer'
                         ><Icon.Github color='black' size={25}/></a>                            
                     </div>
                 </div>
