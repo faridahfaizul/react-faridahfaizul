@@ -117,7 +117,6 @@ body {
 /*  */
 @media screen and (min-width: 576px) and (max-width: 990px) {
   .small-sidebar {
-    display: flex;
     width: 20px;
   }
 
