@@ -9,6 +9,36 @@ export default function MainContentProject() {
     <>
        <div className='grid'> 
             <div className='grid-item'>
+                <a href='https://annes-bakery.netlify.app/' target='_blank' rel='noreferrer' className='profile-link'>
+                    <div className='card'>
+                        <Row>
+                            <Col sm={4}>
+                                <Image className='project-image' src='.\images\works\annesbakery.png' alt='Annes Bakery Website' />
+                            </Col>
+                            <Col sm={7}>                    
+                                <h1 className='project-name small-project-word'>
+                                    Anne's Bakery website
+                                    <span> <Icon.BoxArrowInUpRight color='#983961' size={18}/></span>
+                                </h1>
+                                <p className='project-details small-project-word'>
+                                    A responsive website that is still in development. The design is being made from one of
+                                    the projects done during Google UX Design Certificate journey
+                                </p>
+                                <ul className='project-tech small-project-word'>
+                                    <li className='project-tech-list'>HTML</li>
+                                    <li className='project-tech-list'>CSS</li>
+                                    <li className='project-tech-list'>Bootstrap</li>
+                                    <li className='project-tech-list'>React</li>
+                                    <li className='project-tech-list'>Netlify</li>
+                                    <li className='project-tech-list'>Github</li>
+                                </ul>      
+                            </Col>
+                            <Col sm={1} className='small-column-hidden'></Col>
+                        </Row>   
+                    </div>
+                </a>
+            </div>
+            <div className='grid-item'>
                 <a href='https://v1-faridahfaizul.netlify.app/' target='_blank' rel='noreferrer' className='profile-link'>
                     <div className='card'>
                         <Row>

@@ -20,6 +20,25 @@ export default function AllProjects() {
                 </thead>
                 <tbody>
                     <tr>
+                        <td>2024</td>
+                        <td className='archive-name'>Anne's Bakery Website</td>
+                        <td>
+                            <ul className='archive-tech small-project-word'>
+                                <li className='archive-tech-list'>HTML</li>
+                                <li className='archive-tech-list'>CSS</li>
+                                <li className='archive-tech-list'>Bootstrap</li>
+                                <li className='archive-tech-list'>React</li>
+                                <li className='archive-tech-list'>Netlify</li>
+                                <li className='archive-tech-list'>Github</li>
+                            </ul>   
+                        </td>
+                        <td>
+                            <a href='https://annes-bakery.netlify.app/' target='_blank' rel='noreferrer' className='archive-link'>
+                                shecodes.io/react-weatherapp <Icon.BoxArrowInUpRight color='#983961' size={18}/>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
                         <td>2023</td>
                         <td className='archive-name'>SheCodes React workshop project</td>
                         <td>
